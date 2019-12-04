@@ -16,7 +16,6 @@ public class AddressBook {
 	public static void main(String[] args) {
 
 		do {
-
 			Dao dao = new Dao();
 			System.out.println(
 					" Enter : \n 'New' for create new address book " + "\n 'Open' for open existing address book");
