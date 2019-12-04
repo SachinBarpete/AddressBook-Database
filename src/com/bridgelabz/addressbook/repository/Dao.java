@@ -1,7 +1,3 @@
-/**
- * @author : Sachin Barpete
- * @purpose : Dao layer for CRUD operation 
- */
 package com.bridgelabz.addressbook.repository;
 
 import java.sql.Connection;
@@ -13,6 +9,10 @@ import java.util.Scanner;
 
 import com.bridgelabz.addressbook.model.Person;
 
+/**
+ * @author : Sachin Barpete
+ * @purpose : Dao layer for CRUD operation 
+ */
 public class Dao {
 	static Scanner sc = new Scanner(System.in);
 

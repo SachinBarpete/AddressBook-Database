@@ -1,14 +1,13 @@
-/**
- * @author : Sachin Barpete
- * @purpose : provide service for add user and edit user
- */
 package com.bridgelabz.addressbook.service;
 
 import java.util.Scanner;
 
 import com.bridgelabz.addressbook.model.Person;
 import com.bridgelabz.addressbook.repository.Dao;
-
+/**
+ * @author : Sachin Barpete
+ * @purpose : provide service for add user and edit user
+ */
 public class Service {
 	static Scanner sc = new Scanner(System.in);
 

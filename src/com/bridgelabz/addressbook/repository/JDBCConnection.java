@@ -1,12 +1,11 @@
-/**
- * @author : Sachin Barpete
- * @purpose : connect to the MySQL database
- */
 package com.bridgelabz.addressbook.repository;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-
+/**
+ * @author : Sachin Barpete
+ * @purpose : connect to the MySQL database
+ */
 public class JDBCConnection {
 	public static Connection connection() {
 		try {

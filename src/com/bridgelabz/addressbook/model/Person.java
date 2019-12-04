@@ -1,9 +1,8 @@
+package com.bridgelabz.addressbook.model;
 /**
  * @author : Sachin Barpete
  * @purpose : object for register user
  */
-package com.bridgelabz.addressbook.model;
-
 public class Person {
 	private String firstName;
 	private String lastName;

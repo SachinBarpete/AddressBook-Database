@@ -1,7 +1,3 @@
-/**
- * @author : Sachin Barpete
- * @purpose : Runner class 
- */
 package com.bridgelabz.addressbook.controller;
 
 import java.util.Scanner;
@@ -9,7 +5,10 @@ import java.util.Scanner;
 import com.bridgelabz.addressbook.model.Person;
 import com.bridgelabz.addressbook.repository.Dao;
 import com.bridgelabz.addressbook.service.Service;
-
+/**
+ * @author : Sachin Barpete
+ * @purpose : controller class 
+ */
 public class AddressBook {
 	static Scanner sc = new Scanner(System.in);
 
